@@ -5,7 +5,12 @@ import {
   faShoppingCart,
   faFacebookF,
   faMenorah,
-  faSortUp
+  faSortUp,
+  faLevelUpAlt,
+  faLevelDownAlt,
+  faArrowRight,
+  faArrowLeft
+
 } from "@fortawesome/free-solid-svg-icons";
 
 
@@ -30,11 +35,24 @@ class ControlButtons extends Component {
                 <section class="buttons">
                 <h1>Dji Tello Controller</h1>
 
-                     <buttons> <FontAwesomeIcon icon={faShoppingCart} />
+
+
+                     <buttons> <FontAwesomeIcon icon={  faLevelUpAlt   } />
                   UP</buttons>
-                    <buttons>RIGHT</buttons>
-                    <buttons>DOWN</buttons>
-                    <buttons>LEFT</buttons>
+                    
+                    <buttons>
+                    <FontAwesomeIcon icon={  faArrowRight   } />  
+                    RIGHT</buttons>
+                    <buttons>
+                    
+<FontAwesomeIcon icon={  faLevelDownAlt   } />
+                    DOWN</buttons>
+                    
+<FontAwesomeIcon icon={  faArrowLeft  } />
+                    
+
+                    
+                    LEFT</buttons>
                 </section>
                     </Controller>
 <Dashboard>
