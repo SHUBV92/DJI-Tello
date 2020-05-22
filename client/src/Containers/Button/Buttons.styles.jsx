@@ -24,7 +24,7 @@ export const Dashboard = styled.div`
     }
 
     h1{
-        color: red;
+        color: salmon;
         font-size: 100px;
         padding: 10px
 
@@ -33,6 +33,12 @@ export const Dashboard = styled.div`
         color: blue;
         padding: 10px
 
+    }
+
+    buttons {
+        margin-left:330px;
+        margin-top:330px;
+        padding:30px;
     }
     span{
         color: black;

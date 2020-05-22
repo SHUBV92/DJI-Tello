@@ -9,7 +9,8 @@ import {
   faLevelUpAlt,
   faLevelDownAlt,
   faArrowRight,
-  faArrowLeft
+  faArrowLeft,
+  
 
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -42,21 +43,23 @@ class ControlButtons extends Component {
                     
                     <buttons>
                     <FontAwesomeIcon icon={  faArrowRight   } />  
-                    RIGHT</buttons>
+                    RIGHT
+                    </buttons>
                     <buttons>
-                    
-<FontAwesomeIcon icon={  faLevelDownAlt   } />
-                    DOWN</buttons>
-                    
-<FontAwesomeIcon icon={  faArrowLeft  } />
-                    
-
-                    
-                    LEFT</buttons>
+                    <FontAwesomeIcon icon={  faLevelDownAlt   } />
+                    DOWN
+                    </buttons>
+                    <buttons>
+                    <FontAwesomeIcon icon={  faArrowLeft  } />
+                    LEFT
+                    </buttons>
                 </section>
                     </Controller>
 <Dashboard>
                 <section class="tools">
+
+
+<buttons>                    <FontAwesomeIcon icon={  faSortUp  } /> </buttons>
 
                     <h1>Digi <br /> Dashboard</h1>
                         <h3>Temperature: <span>  84 {this.state.temperature} degrees </span></h3>
