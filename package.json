@@ -9,7 +9,7 @@
   "dependencies": {
     "dgram": "^1.0.1",
     "fs": "0.0.1-security",
-    "got": "^11.1.4",
+    "got": "^11.8.5",
     "os": "^0.1.1",
     "tello-drone": "^3.0.4"
   },
